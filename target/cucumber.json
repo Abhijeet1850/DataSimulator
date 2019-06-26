@@ -1,0 +1,156 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Invalid Login to Facebook",
+        "description": "",
+        "id": "title-of-your-feature;invalid-login-to-facebook",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79931559,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I create a CSV file \"FI_HLD.csv\" with following data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FI_HLD.csv",
+                  "offset": 21
+                }
+              ],
+              "location": "ManageFacilitySchedInfo.i_create_a_CSV_file_with_following_data(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Date",
+                  "Facility"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "12/25/19",
+                  "CTT"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9190779,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I create a CSV file \"FI_OH.csv\" from following headers",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FI_OH.csv",
+                  "offset": 21
+                }
+              ],
+              "location": "ManageFacilitySchedInfo.i_create_a_CSV_file_from_following_headers(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "From_Date",
+                  "To_date",
+                  "Facility",
+                  "Day_of_Week",
+                  "Open_time",
+                  "Close_Time"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2383998,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I create a CSV file \"FI_PT.csv\" from following headers",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FI_PT.csv",
+                  "offset": 21
+                }
+              ],
+              "location": "ManageFacilitySchedInfo.i_create_a_CSV_file_from_following_headers(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Facility",
+                  "Shipping_Method",
+                  "Default",
+                  "Single_Line",
+                  "Multi_Line",
+                  "NonCon",
+                  "Gift_Wrap",
+                  "Batch_Pick"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1520968,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I create a CSV file \"FI_ST.csv\" from following headers",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FI_ST.csv",
+                  "offset": 21
+                }
+              ],
+              "location": "ManageFacilitySchedInfo.i_create_a_CSV_file_from_following_headers(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Facility_type",
+                  "Facility",
+                  "Zip_Code",
+                  "Time_Zone",
+                  "Shipping_method"
+                ],
+                "line": 14
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "com/BBBY/DataSimulator/features_api/FacilitySchedule.feature"
+  }
+]
