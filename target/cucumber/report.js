@@ -106,7 +106,7 @@ formatter.match({
   "location": "ManageFacilitySchedInfo.i_create_a_CSV_file_with_following_data(String,DataTable)"
 });
 formatter.result({
-  "duration": 79931559,
+  "duration": 89124147,
   "status": "passed"
 });
 formatter.match({
@@ -119,7 +119,7 @@ formatter.match({
   "location": "ManageFacilitySchedInfo.i_create_a_CSV_file_from_following_headers(String,DataTable)"
 });
 formatter.result({
-  "duration": 9190779,
+  "duration": 15159236,
   "status": "passed"
 });
 formatter.match({
@@ -132,7 +132,7 @@ formatter.match({
   "location": "ManageFacilitySchedInfo.i_create_a_CSV_file_from_following_headers(String,DataTable)"
 });
 formatter.result({
-  "duration": 2383998,
+  "duration": 3237326,
   "status": "passed"
 });
 formatter.match({
@@ -145,7 +145,7 @@ formatter.match({
   "location": "ManageFacilitySchedInfo.i_create_a_CSV_file_from_following_headers(String,DataTable)"
 });
 formatter.result({
-  "duration": 1520968,
+  "duration": 3488476,
   "status": "passed"
 });
 });
