@@ -14,7 +14,7 @@ public class DataGen1 {
 
 	RandomDataGen rgen = new RandomDataGen();
 	List<List<String>> data;
-	String[] zipCode = new String[4];
+	String[] zipCode = { "07065","09876","04561","1923" }   ;
 	CSVReadWrite csvObj = new CSVReadWrite();
 	
 	

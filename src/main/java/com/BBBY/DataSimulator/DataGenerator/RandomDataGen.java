@@ -2,6 +2,7 @@ package com.BBBY.DataSimulator.DataGenerator;
 
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Random;
 
@@ -31,11 +32,10 @@ public class RandomDataGen {
 	
 	public String getRandomDate(int year, int monthLower, int monthUpper)
 	{
-		
 		      return String.valueOf(LocalDate.of(year, 
 				Integer.parseInt(getRandomInteger(monthLower,monthUpper)), 
-				Integer.parseInt(getRandomInteger(1,28))));	
-		 
+				Integer.parseInt(getRandomInteger(1,28))
+				).format(DateTimeFormatter.ofPattern("yyyy/MM/dd")));	
 	}
 
 }

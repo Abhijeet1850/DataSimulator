@@ -96,6 +96,48 @@ formatter.step({
   ],
   "keyword": "And "
 });
+formatter.step({
+  "line": 15,
+  "name": "I upload below csv files to shared path",
+  "rows": [
+    {
+      "cells": [
+        "File",
+        "Path"
+      ],
+      "line": 16
+    },
+    {
+      "cells": [
+        "FI_HLD.csv",
+        "\\\\dept02cluster\\distributionservices\\Data_Transfer\\EOM\\STC\\EDD\\PROD\\FI\\Test"
+      ],
+      "line": 17
+    },
+    {
+      "cells": [
+        "FI_OH.csv",
+        "\\\\dept02cluster\\distributionservices\\Data_Transfer\\EOM\\STC\\EDD\\PROD\\FI\\Test"
+      ],
+      "line": 18
+    },
+    {
+      "cells": [
+        "FI_PT.csv",
+        "\\\\dept02cluster\\distributionservices\\Data_Transfer\\EOM\\STC\\EDD\\PROD\\FI\\Test"
+      ],
+      "line": 19
+    },
+    {
+      "cells": [
+        "FI_ST.csv",
+        "\\\\dept02cluster\\distributionservices\\Data_Transfer\\EOM\\STC\\EDD\\PROD\\FI\\Test"
+      ],
+      "line": 20
+    }
+  ],
+  "keyword": "And "
+});
 formatter.match({
   "arguments": [
     {
@@ -106,7 +148,7 @@ formatter.match({
   "location": "ManageFacilitySchedInfo.i_create_a_CSV_file_with_following_data(String,DataTable)"
 });
 formatter.result({
-  "duration": 89124147,
+  "duration": 91926393,
   "status": "passed"
 });
 formatter.match({
@@ -119,7 +161,7 @@ formatter.match({
   "location": "ManageFacilitySchedInfo.i_create_a_CSV_file_from_following_headers(String,DataTable)"
 });
 formatter.result({
-  "duration": 15159236,
+  "duration": 61410483,
   "status": "passed"
 });
 formatter.match({
@@ -132,7 +174,7 @@ formatter.match({
   "location": "ManageFacilitySchedInfo.i_create_a_CSV_file_from_following_headers(String,DataTable)"
 });
 formatter.result({
-  "duration": 3237326,
+  "duration": 2377699,
   "status": "passed"
 });
 formatter.match({
@@ -145,7 +187,14 @@ formatter.match({
   "location": "ManageFacilitySchedInfo.i_create_a_CSV_file_from_following_headers(String,DataTable)"
 });
 formatter.result({
-  "duration": 3488476,
+  "duration": 1665941,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ManageFacilitySchedInfo.i_upload_below_csv_files_to_shared_path(DataTable)"
+});
+formatter.result({
+  "duration": 22387991164,
   "status": "passed"
 });
 });
